@@ -33,9 +33,18 @@ gsap.from('.navigation', {
   stagger: 0.08,
 });
 
+gsap.to('#main', {
+  duration: 2,
+  delay: 1.6,
+  scaleX: 1,
+  scaleY: 1,
+  ease: 'expo.inOut',
+  stagger: 0.08,
+});
+
 gsap.from('.main-text', {
-  duration: 1.5,
-  delay: 1.5,
+  duration: 2,
+  delay: 1.7,
   opacity: 0,
   x: -20,
   ease: 'expo.inOut',
@@ -43,7 +52,7 @@ gsap.from('.main-text', {
 });
 
 gsap.from('.displacement', {
-  duration: 1.5,
+  duration: 2,
   delay: 1.8,
 
   opacity: 0,

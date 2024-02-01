@@ -246,7 +246,10 @@ ul {
   padding: 20px;
 
   min-height: 450px;
+  transform: scale(0);
+  transition: transform 0.5s ease;
   background-color: #fff5f5;
+  transition: transform 0.5s ease;
 }
 
 .main-wrapper {
