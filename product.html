@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Detail's</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- TOP BAR -->
+    <div class="nav-top-bar">
+      <span>20% Off To All Offer's And All Category, Make Your Order's Now.</span>
+    </div>
+
+    <!-- NAVIGATION -->
+
+    <nav class="navigation">
+      <div class="navigation-wrapper">
+        <a href="index.html" class="logo">
+          <img src="images/logo.svg" alt="logo" width="150" height="40" />
+        </a>
+        <input type="checkbox" class="menu-btn" id="menu-btn" />
+        <label for="menu-btn" class="menu-icon">
+          <span class="nav-icon"></span>
+        </label>
+        <!-- menu -->
+        <ul class="menu">
+          <li><a href="product.html">Shop Now</a></li>
+          <li>
+            <a href="hot_products.html">Hot Product's</a>
+            <span class="nav-label">Hot Offer</span>
+          </li>
+          <li><a href="#popular-product">Popular</a></li>
+          <li id="contact"><a href="mailto:irinavn2011@gmail.com">Contact Us</a></li>
+        </ul>
+        <div class="nav-btns">
+          <!--search-->
+          <input type="checkbox" id="nav-search-btn" />
+          <label for="nav-search-btn" class="nav-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <!--search-container-->
+            <form action="">
+              <label for="nav-search-btn" class="nav-search-close">
+                <i class="fa-solid fa-xmark"></i>
+              </label>
+
+              <div class="nav-search-box">
+                <input type="text" placeholder="Search Product's" required />
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+              </div>
+            </form>
+          </label>
+          <a href="#" class="nav-user">
+            <i class="fa-solid fa-user"></i>
+          </a>
+          <a href="#" class="nav-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>0</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- PRODUCT DETAILS -->
+    <section id="product_details">
+      <div class="d-product-img">
+        <img alt="" src="images/p1.png" />
+      </div>
+      <div class="d-product-text">
+        <span class="category">Electronic > Computer Accsories</span>
+        <strong>Best Web Camera For PC With High Resolution</strong>
+        <span class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+          <span>200 Review's</span>
+        </span>
+        <div class="d-product-text-descr">
+          <p>
+            Capture Every Detail in Stunning Clarity: Discover the Best High-Resolution Web Cameras
+            for PC. Elevate your video calls, streaming, and content creation with our selection of
+            top-tier web cameras. Experience crystal-clear imagery, vibrant colors, and smooth video
+            quality, all in high resolution. Whether you're attending virtual meetings, recording
+            content, or connecting with loved ones, our web cameras ensure you're seen in the best
+            possible light. Upgrade your setup and enhance your online presence with the best in
+            PC-compatible web cameras.
+          </p>
+          <p>
+            Stay confidently connected with colleagues, friends, and family, whether you're working
+            remotely, attending virtual events, or simply catching up online. Invest in the best and
+            enjoy a superior video communication experience with our high-resolution web cameras for
+            PC.
+          </p>
+        </div>
+
+        <span class="price">50$ <del>60$</del></span>
+        <div class="quantity">
+          <span>Quantity: </span>
+          <input type="number" value="1" />
+        </div>
+        <a class="d-product-btn" href="#">Add To Cart</a>
+      </div>
+    </section>
+
+    <!-- RELATIVE PRODUCTS-->
+    <section id="popular-product" class="relative-products">
+      <div class="product-heading">
+        <h3>Relative Product's</h3>
+        <a>All</a>
+      </div>
+
+      <ul class="popular-product-container">
+        <li class="product-box">
+          <a href="product.html" class="product-img">
+            <img src="images/p1.png" alt="webcamera" width="150px" />
+          </a>
+          <div class="product-text">
+            <a href="#" class="product-box-p-name">Web Camera For PC</a>
+            <span class="product-text-category">
+              <a>Electronic</a> > <a>Computer Accessories</a>
+            </span>
+            <p>
+              Stay Connected with Crystal-Clear Clarity: PC-Compatible Web Cameras. Bring your
+              virtual meetings, live streams, and video chats to life with our selection of
+              high-definition web cameras designed for PC compatibility. Experience sharp image
+              quality, smooth video streaming, and easy setup for seamless communication. Whether
+              you're connecting with colleagues, friends, or family, our web cameras ensure you're
+              seen and heard with clarity and precision.
+            </p>
+            <span class="p-box-price">$45</span>
+            <del>$60</del>
+          </div>
+        </li>
+
+        <!--box2-->
+        <li class="product-box">
+          <a href="#" class="product-img">
+            <img src="images/p2.png" alt="wireless mouse for PC" width="150px" />
+          </a>
+          <div class="product-text">
+            <a href="#" class="product-box-p-name">Wireless Mouse For PC</a>
+            <span class="product-text-category">
+              <a>Electronic</a> > <a>Computer Accessories</a>
+            </span>
+            <p>
+              Unleash Your Productivity with Wireless Freedom: PC-Compatible Wireless Mice. Cut the
+              cord and enjoy unparalleled freedom and convenience with our range of wireless mice
+              for PC. Experience precise control, ergonomic comfort, and seamless connectivity for
+              enhanced productivity and effortless navigation. Say goodbye to tangled cables and
+              hello to smooth, uninterrupted performance with our PC-compatible wireless mice.
+            </p>
+            <span class="p-box-price">$25</span>
+            <del>$40</del>
+          </div>
+        </li>
+
+        <!--box3-->
+        <li class="product-box">
+          <a href="#" class="product-img">
+            <img src="images/p3.png" alt="laptop" width="150px" />
+          </a>
+          <div class="product-text">
+            <a href="#" class="product-box-p-name">Touch HP Laptop</a>
+            <span class="product-text-category">
+              <a>Electronic</a> > <a>Computer Accessories</a>
+            </span>
+            <p>
+              Experience Seamless Connectivity and Intuitive Performance with our Touch-enabled HP
+              Laptops. Navigate with ease, interact effortlessly, and unleash your creativity with
+              the power of touch. Our HP laptops combine sleek design with cutting-edge technology
+              to deliver a responsive and immersive computing experience. From work to
+              entertainment, stay productive and entertained wherever you go with our touch-enabled
+              HP laptops.
+            </p>
+            <span class="p-box-price">$1000</span>
+            <del>$1200</del>
+          </div>
+        </li>
+
+        <!--box4-->
+        <li class="product-box">
+          <a href="#" class="product-img">
+            <img src="images/p4.png" alt="HeadPhone" width="150px" />
+          </a>
+          <div class="product-text">
+            <a href="#" class="product-box-p-name">HeadPhone's For PC</a>
+            <span class="p-box-category"> <a>Electronic</a> > <a>Computer Accessories</a> </span>
+            <p>
+              Elevate Your PC Experience with Premium Headphones. Immerse yourself in crystal-clear
+              audio and superior comfort with our range of PC headphones. Designed for gamers,
+              professionals, and music lovers alike, our headphones deliver unparalleled sound
+              quality, noise cancellation, and ergonomic design for extended wear. Take your PC
+              audio to the next level and hear every detail with precision and clarity.
+            </p>
+            <span class="p-box-price">$125</span>
+            <del>$200</del>
+          </div>
+        </li>
+
+        <!--box5-->
+        <li class="product-box">
+          <a href="#" class="product-img">
+            <img src="images/p5.png" alt="DSLR Camera" width="150px" />
+          </a>
+          <div class="product-text">
+            <a href="#" class="product-box-p-name">DSLR Camera</a>
+            <span class="product-text-category">
+              <a>Electronic</a> > <a>Camera Accessories</a>
+            </span>
+            <p>
+              Capture the World in Unmatched Clarity with Our DSLR Cameras. Elevate your photography
+              game with precision, versatility, and exceptional image quality. Explore a range of
+              features tailored to enthusiasts and professionals alike, empowering you to unleash
+              your creativity and capture every moment with stunning detail and depth.
+            </p>
+            <span class="p-box-price">$500</span>
+            <del>$600</del>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <!--payment-method-->
+      <div class="footer-payment">
+        <ul class="footer-payment-logos">
+          <li>
+            <img alt="logo mastercard" src="images/master_card.png" width="100px" height="40px" />
+          </li>
+          <li><img alt="logo visa" src="images/visa.png" width="100px" height="40px" /></li>
+          <li><img alt="logo paypal" src="images/paypal.png" width="100px" height="40px" /></li>
+          <li><img alt="logo ebay" src="images/ebay.png" width="100px" height="40px" /></li>
+        </ul>
+        <strong>Safe And Secure Payment Method's</strong>
+      </div>
+
+      <!--container-->
+      <div class="footer-container">
+        <!--company-->
+        <div class="footer-company-box">
+          <a href="#" class="footer-logo">
+            <img src="images/logo.svg" alt="logo" width="150" height="40" />
+          </a>
+          <p>Unlock Exclusive Offers, Updates, and More!</p>
+          <ul class="footer-social">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <!--link-box-->
+        <div class="footer-link-box">
+          <strong>Main Link's</strong>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+          </ul>
+        </div>
+
+        <!--link-box-->
+        <div class="footer-link-box">
+          <strong>External Link's</strong>
+          <ul>
+            <li><a href="#">Our Product's</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Disclaimer</a></li>
+            <li><a href="#">Trem's and Condition's</a></li>
+          </ul>
+        </div>
+
+        <!--subscribe-->
+        <div class="footer-subscribe">
+          <strong>Subscribe Now</strong>
+          <p>
+            Join our community today for the latest news, deals, and insider access delivered
+            straight to your inbox.
+          </p>
+          <!--subscribe-box-->
+          <div class="subscribe-box">
+            <input type="email" placeholder="Example@gmail.com" required />
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
+
+      <!--bottom-->
+      <div class="footer-bottom">
+        <span class="footer-owner">Made By IVN</span>
+        <span class="copyright">&#169; Copyright 2024</span>
+      </div>
+    </footer>
+  </body>
+</html>
