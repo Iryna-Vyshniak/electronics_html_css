@@ -436,6 +436,7 @@ ul {
   height: 100%;
   object-fit: contain;
   object-position: center;
+  filter: drop-shadow(0 50px 20px rgba(120, 144, 150, 0.6));
 }
 
 .r-product-text {
@@ -586,7 +587,7 @@ ul {
 }
 
 .product-box:hover {
-  box-shadow: 2px 6px 16px rgba(0, 0, 0, 0.05);
+  box-shadow: 2px 6px 16px rgba(39, 39, 39, 0.05);
 }
 
 .product-box .product-img img {
@@ -594,6 +595,7 @@ ul {
   height: 150px;
   object-fit: contain;
   object-position: center;
+  filter: drop-shadow(0 50px 20px rgba(59, 60, 60, 0.6));
 }
 
 .product-text {
@@ -710,6 +712,7 @@ ul {
   height: 100%;
   object-fit: contain;
   object-position: center;
+  filter: drop-shadow(0 50px 20px rgba(120, 144, 150, 0.6));
 }
 
 .contact-bg-right {
@@ -721,6 +724,7 @@ ul {
   height: 100%;
   object-fit: contain;
   object-position: center;
+  filter: drop-shadow(0 50px 20px rgba(120, 144, 150, 0.6));
 }
 
 /* --------- SERVICES ----------------- */
@@ -1233,6 +1237,7 @@ footer {
   align-items: center;
   background-color: #a4e2ff15;
   border: 1px solid #f8f8f8;
+  filter: drop-shadow(0 50px 20px rgba(106, 129, 134, 0.6));
 }
 
 .d-product-img img {
