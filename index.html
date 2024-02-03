@@ -43,7 +43,7 @@
             <span class="nav-label">Hot Offer</span>
           </li>
           <li><a href="#popular-product">Popular</a></li>
-          <li><a href="mailto:example@mail.com">Contact Us</a></li>
+          <li id="contact"><a href="mailto:irinavn2011@gmail.com">Contact Us</a></li>
         </ul>
         <div class="nav-btns">
           <!--search-->
@@ -74,9 +74,9 @@
     </nav>
 
     <!--main-->
-    <section id="main">
-      <div class="main-wrapper">
-        <div class="main-text">
+    <section id="hero">
+      <div class="hero-wrapper">
+        <div class="hero-text">
           <strong>Favourite Product</strong>
           <h1>Electronics Emporium: Your Gateway to Cutting-Edge<span>Tech Solutions</span></h1>
           <p>Discover, Innovate, and Connect with the Latest in Electronics Innovation</p>
@@ -84,7 +84,7 @@
         </div>
 
         <!-- IMG DISPLACEMENT -->
-        <div class="main-displacement-wrapper">
+        <div class="hero-displacement-wrapper">
           <div class="displacement"></div>
         </div>
       </div>
@@ -106,9 +106,9 @@
         <h3>Recent Product's</h3>
         <a>All</a>
       </div>
-      <div class="r-product-container">
+      <ul class="r-product-container">
         <!--box1-->
-        <div class="r-product-box">
+        <li class="r-product-box">
           <div class="r-product-img">
             <img src="images/airphone.png" alt="airphone" width="120px" height="auto" />
           </div>
@@ -117,10 +117,10 @@
             <span class="p-box-category"> <a>Electronic</a> > <a>Computer Accessories</a> </span>
             <span class="p-box-price">$35.55 <del>$50</del></span>
           </div>
-        </div>
+        </li>
 
         <!--box2-->
-        <div class="r-product-box">
+        <li class="r-product-box">
           <div class="r-product-img">
             <img src="images/sale-laptop.png" alt="laptop" width="120px" height="auto" />
           </div>
@@ -129,11 +129,10 @@
             <span class="p-box-category"> <a>Electronic</a> > <a>Computer Accessories</a> </span>
             <span class="p-box-price">$1000.55 <del>$1200</del></span>
           </div>
-        </div>
-        <!--box-end-->
+        </li>
 
         <!--box3-->
-        <div class="r-product-box">
+        <li class="r-product-box">
           <div class="r-product-img">
             <img
               src="images/apple-watch-ultra-2.png"
@@ -147,10 +146,10 @@
             <span class="p-box-category"> <a>Electronic</a> > <a>Mobile Accessories</a> </span>
             <span class="p-box-price">$50.55 <del>$80</del></span>
           </div>
-        </div>
+        </li>
 
         <!--box4-->
-        <div class="r-product-box">
+        <li class="r-product-box">
           <div class="r-product-img">
             <img src="images/airpods-pro.png" alt="airphones" width="120px" height="auto" />
           </div>
@@ -159,10 +158,10 @@
             <span class="p-box-category"> <a>Electronic</a> > <a>Mobile Accessories</a> </span>
             <span class="p-box-price">$5.55 <del>$10</del></span>
           </div>
-        </div>
+        </li>
 
         <!--box5-->
-        <div class="r-product-box">
+        <li class="r-product-box">
           <div class="r-product-img">
             <img src="images/camera.png" alt="web camera" width="120px" height="auto" />
           </div>
@@ -171,10 +170,10 @@
             <span class="p-box-category"> <a>Electronic</a> > <a>Computer Accessories</a> </span>
             <span class="p-box-price">$45.55 <del>$50</del></span>
           </div>
-        </div>
+        </li>
 
         <!--box6-->
-        <div class="r-product-box">
+        <li class="r-product-box">
           <div class="r-product-img">
             <img src="images/apple-mouse.png" alt="mouse for PC" width="120px" height="auto" />
           </div>
@@ -184,48 +183,50 @@
             <span class="p-box-category"> <a>Electronic</a> > <a>Computer Accessories</a> </span>
             <span class="p-box-price">$15.55 <del>$50</del></span>
           </div>
-        </div>
-      </div>
+        </li>
+      </ul>
     </section>
 
     <!-- SALE -->
     <section class="sale">
-      <!--box1-->
-      <div class="sale-box">
-        <img
-          src="images/sale-headphones.png"
-          alt="headphone"
-          width="150"
-          height="auto"
-          loading="lazy"
-        />
-        <a href="#" class="sale-text">
-          <strong>Laptop With Touch Screen</strong>
-          <span>Sale Off 25%</span>
-        </a>
-      </div>
-      <!--box2-->
-      <div class="sale-box">
-        <img src="images/sale-laptop.png" alt="laptop" width="150" height="auto" loading="lazy" />
-        <a href="#" class="sale-text">
-          <strong>Apple Smart Watch</strong>
-          <span>Sale Off 25%</span>
-        </a>
-      </div>
-      <!--box3-->
-      <div class="sale-box">
-        <img
-          src="images/sale-watch.png"
-          alt="smart watch"
-          width="150"
-          height="auto"
-          loading="lazy"
-        />
-        <a href="#" class="sale-text">
-          <strong>Android Wire Handfree</strong>
-          <span>Sale Off 25%</span>
-        </a>
-      </div>
+      <ul class="sale-container">
+        <!--box1-->
+        <li class="sale-box">
+          <img
+            src="images/sale-headphones.png"
+            alt="headphone"
+            width="150"
+            height="auto"
+            loading="lazy"
+          />
+          <a href="#" class="sale-text">
+            <strong>Laptop With Touch Screen</strong>
+            <span>Sale Off 25%</span>
+          </a>
+        </li>
+        <!--box2-->
+        <li class="sale-box">
+          <img src="images/sale-laptop.png" alt="laptop" width="150" height="auto" loading="lazy" />
+          <a href="#" class="sale-text">
+            <strong>Apple Smart Watch</strong>
+            <span>Sale Off 25%</span>
+          </a>
+        </li>
+        <!--box3-->
+        <li class="sale-box">
+          <img
+            src="images/sale-watch.png"
+            alt="smart watch"
+            width="150"
+            height="auto"
+            loading="lazy"
+          />
+          <a href="#" class="sale-text">
+            <strong>Android Wire Handfree</strong>
+            <span>Sale Off 25%</span>
+          </a>
+        </li>
+      </ul>
     </section>
 
     <!--POPULAR PRODUCTS-->
@@ -235,14 +236,16 @@
         <a>All</a>
       </div>
 
-      <div class="popular-product-container">
-        <div class="product-box">
+      <ul class="popular-product-container">
+        <li class="product-box">
           <a href="product.html" class="product-img">
-            <img alt="" src="images/p1.png" alt="webcamera" width="150px" />
+            <img src="images/p1.png" alt="webcamera" width="150px" />
           </a>
           <div class="product-text">
             <a href="#" class="product-box-p-name">Web Camera For PC</a>
-            <span class="p-box-category"> <a>Electronic</a> > <a>Computer Accessories</a> </span>
+            <span class="product-text-category">
+              <a>Electronic</a> > <a>Computer Accessories</a>
+            </span>
             <p>
               Stay Connected with Crystal-Clear Clarity: PC-Compatible Web Cameras. Bring your
               virtual meetings, live streams, and video chats to life with our selection of
@@ -254,16 +257,18 @@
             <span class="p-box-price">$45</span>
             <del>$60</del>
           </div>
-        </div>
+        </li>
 
         <!--box2-->
-        <div class="product-box">
+        <li class="product-box">
           <a href="#" class="product-img">
-            <img alt="" src="images/p2.png" alt="wireless mouse for PC" width="150px" />
+            <img src="images/p2.png" alt="wireless mouse for PC" width="150px" />
           </a>
           <div class="product-text">
             <a href="#" class="product-box-p-name">Wireless Mouse For PC</a>
-            <span class="p-box-category"> <a>Electronic</a> > <a>Computer Accessories</a> </span>
+            <span class="product-text-category">
+              <a>Electronic</a> > <a>Computer Accessories</a>
+            </span>
             <p>
               Unleash Your Productivity with Wireless Freedom: PC-Compatible Wireless Mice. Cut the
               cord and enjoy unparalleled freedom and convenience with our range of wireless mice
@@ -274,16 +279,18 @@
             <span class="p-box-price">$25</span>
             <del>$40</del>
           </div>
-        </div>
+        </li>
 
         <!--box3-->
-        <div class="product-box">
+        <li class="product-box">
           <a href="#" class="product-img">
-            <img alt="" src="images/p3.png" alt="laptop" width="150px" />
+            <img src="images/p3.png" alt="laptop" width="150px" />
           </a>
           <div class="product-text">
             <a href="#" class="product-box-p-name">Touch HP Laptop</a>
-            <span class="p-box-category"> <a>Electronic</a> > <a>Computer Accessories</a> </span>
+            <span class="product-text-category">
+              <a>Electronic</a> > <a>Computer Accessories</a>
+            </span>
             <p>
               Experience Seamless Connectivity and Intuitive Performance with our Touch-enabled HP
               Laptops. Navigate with ease, interact effortlessly, and unleash your creativity with
@@ -295,12 +302,12 @@
             <span class="p-box-price">$1000</span>
             <del>$1200</del>
           </div>
-        </div>
+        </li>
 
         <!--box4-->
-        <div class="product-box">
+        <li class="product-box">
           <a href="#" class="product-img">
-            <img alt="" src="images/p4.png" alt="HeadPhone" width="150px" />
+            <img src="images/p4.png" alt="HeadPhone" width="150px" />
           </a>
           <div class="product-text">
             <a href="#" class="product-box-p-name">HeadPhone's For PC</a>
@@ -315,16 +322,18 @@
             <span class="p-box-price">$125</span>
             <del>$200</del>
           </div>
-        </div>
+        </li>
 
         <!--box5-->
-        <div class="product-box">
+        <li class="product-box">
           <a href="#" class="product-img">
-            <img alt="" src="images/p5.png" alt="DSLR Camera" width="150px" />
+            <img src="images/p5.png" alt="DSLR Camera" width="150px" />
           </a>
           <div class="product-text">
             <a href="#" class="product-box-p-name">DSLR Camera</a>
-            <span class="p-box-category"> <a>Electronic</a> > <a>Camera Accessories</a> </span>
+            <span class="product-text-category">
+              <a>Electronic</a> > <a>Camera Accessories</a>
+            </span>
             <p>
               Capture the World in Unmatched Clarity with Our DSLR Cameras. Elevate your photography
               game with precision, versatility, and exceptional image quality. Explore a range of
@@ -334,8 +343,8 @@
             <span class="p-box-price">$500</span>
             <del>$600</del>
           </div>
-        </div>
-      </div>
+        </li>
+      </ul>
     </section>
 
     <!-- CONTACT-->
@@ -347,8 +356,20 @@
           <a href="mailto:example@gmail.com">Contact Us</a>
         </div>
         <!--img-->
-        <img class="contact-bg-right" src="images/contact_bg.webp" />
-        <img class="contact-bg-left" src="images/contact_bg1.jpg" />
+        <img
+          class="contact-bg-right"
+          src="images/watches.png"
+          alt="apple smart watches"
+          width="250px"
+          height="auto"
+        />
+        <img
+          class="contact-bg-left"
+          src="images/smart-watches.png"
+          alt="apple smart watches"
+          width="250px"
+          height="auto"
+        />
       </div>
     </section>
 
@@ -378,12 +399,14 @@
     <footer>
       <!--payment-method-->
       <div class="footer-payment">
-        <div class="footer-payment-logos">
-          <img alt="" src="images/master_card.png" />
-          <img alt="" src="images/visa.png" />
-          <img alt="" src="images/paypal.png" />
-          <img alt="" src="images/ebay.png" />
-        </div>
+        <ul class="footer-payment-logos">
+          <li>
+            <img alt="logo mastercard" src="images/master_card.png" width="100px" height="40px" />
+          </li>
+          <li><img alt="logo visa" src="images/visa.png" width="100px" height="40px" /></li>
+          <li><img alt="logo paypal" src="images/paypal.png" width="100px" height="40px" /></li>
+          <li><img alt="logo ebay" src="images/ebay.png" width="100px" height="40px" /></li>
+        </ul>
         <strong>Safe And Secure Payment Method's</strong>
       </div>
 
@@ -395,21 +418,29 @@
             <img src="images/logo.svg" alt="logo" width="150" height="40" />
           </a>
           <p>Unlock Exclusive Offers, Updates, and More!</p>
-          <div class="footer-social">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          </div>
+          <ul class="footer-social">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+          </ul>
         </div>
 
         <!--link-box-->
         <div class="footer-link-box">
           <strong>Main Link's</strong>
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="./index.html">Home</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Portfolio</a></li>
           </ul>
