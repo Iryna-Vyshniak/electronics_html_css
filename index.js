@@ -33,16 +33,15 @@ gsap.from('.navigation', {
   stagger: 0.08,
 });
 
-gsap.to('#main', {
+gsap.to('#hero', {
   duration: 2,
   delay: 1.6,
-  scaleX: 1,
-  scaleY: 1,
+  backgroundColor: '#fff5f5',
   ease: 'expo.inOut',
   stagger: 0.08,
 });
 
-gsap.from('.main-text', {
+gsap.from('.hero-text', {
   duration: 2,
   delay: 1.7,
   opacity: 0,
@@ -79,6 +78,15 @@ gsap.from('.recent-product', {
 });
 
 gsap.from('.sale', {
+  duration: 1.5,
+  delay: 2.4,
+  opacity: 0,
+  y: 20,
+  ease: 'expo.inOut',
+  stagger: 0.08,
+});
+
+gsap.from('#popular-product', {
   duration: 1.5,
   delay: 2.4,
   opacity: 0,
